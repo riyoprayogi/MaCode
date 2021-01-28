@@ -12,8 +12,8 @@ for i in variabel:
 
 # FOR pada list
 code_tipe = ["C", "C++", "C#", "Python", "Java", "JavaScript"]
-for r in code_tipe:
-    print("Bahasa Pemrograman {}".format(r))
+for i in code_tipe:
+    print("Bahasa Pemrograman {}".format(i))
 
 # Perulangan menggunakan While
 i = 0
@@ -24,7 +24,7 @@ while i < 10**2:
 # Infinte Loop
 i = 1
 while i < 10:
-    print(i)
+    print(i) # note:ctrl c
 
 # Perulangan Bersarang
 for baris in range(5):
